@@ -1,0 +1,17 @@
+[package]
+name = "floatflow"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "poly_cal_test"
+path = "test/poly_cal_test.rs"
+
+[[bin]]
+name = "solve_poly"
+path = "bin/solve_poly.rs"
